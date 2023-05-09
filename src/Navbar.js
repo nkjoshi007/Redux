@@ -2,7 +2,7 @@ const Navbar=()=>{
     return(
         <>
         <div className="navBar">
-            <span>NKJoshi007</span>
+            <span>NKJoshi007 </span>
             <ul className="navBar-ul">
                 <li>Home</li>
                 <li>Contact us</li>
