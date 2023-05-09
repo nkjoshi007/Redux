@@ -5,9 +5,9 @@ function App() {
     <>
     <h1 className='center'>The shoe store</h1>
     <div className="App">
-  <button className='Increment btn'>+</button>
+  <button className='Increment btn'>Add</button>
   Add the products of shoe
-  <button className='Decrement btn'>-</button>
+  <button className='Decrement btn'>remove</button>
     </div>
     </>
   );
