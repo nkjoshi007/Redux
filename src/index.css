@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.center{
+  text-align: center;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  background-color: aqua;
+}
+.navBar-ul{
+  display: flex;
+  list-style: none;
+margin: 0px 20px;
+}
+.navBar-ul li{
+  margin: 0px 10px;
+}
+.navBar-btn{
+  align-items: start;
+margin-left: 50px;
+}
+.btn{
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.btn:hover{
+  background-color: black;
+  color: aliceblue;
+}
