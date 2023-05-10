@@ -30,7 +30,7 @@ margin: 0px 20px;
 }
 .navBar-btn{
   align-items: start;
-margin-left: 50px;
+  margin-left: 50px;
 }
 .btn{
   background-color: blue;
@@ -38,8 +38,10 @@ margin-left: 50px;
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid white;
+  margin: 0px 10px;
 }
 .btn:hover{
-  background-color: black;
-  color: aliceblue;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
 }
