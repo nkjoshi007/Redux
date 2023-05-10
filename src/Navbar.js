@@ -1,4 +1,7 @@
+import { useSelector } from "react-redux";
+
 const Navbar=()=>{
+    const amount = useSelector(state=>state.amount)
     return(
         <>
         <div className="navBar">
@@ -8,7 +11,7 @@ const Navbar=()=>{
                 <li>Contact us</li>
                 <li>About us</li>
             </ul>
-            <button className="btn navBar-btn">Amount : 1000</button>
+            <button className="btn navBar-btn">Amount : {amount}</button>
         </div>
         </>
     )
